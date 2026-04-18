@@ -1,0 +1,73 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/home/suriya_prakash/task3_ws/build/submarine_interfaces/submarine_interfaces__rs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 35,
+				"parent" : 0
+			}
+		]
+	},
+	"id" : "submarine_interfaces__rs::@59c72c2eaade286f1c25",
+	"name" : "submarine_interfaces__rs",
+	"paths" : 
+	{
+		"build" : "submarine_interfaces__rs",
+		"source" : "/home/suriya_prakash/task3_ws/build/submarine_interfaces/submarine_interfaces__rs"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/home/suriya_prakash/task3_ws/build/submarine_interfaces/submarine_interfaces__rs/CMakeFiles/submarine_interfaces__rs",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/suriya_prakash/task3_ws/build/submarine_interfaces/submarine_interfaces__rs/CMakeFiles/submarine_interfaces__rs.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/suriya_prakash/task3_ws/build/submarine_interfaces/rosidl_generator_rs/submarine_interfaces/rust/src/lib.rs.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

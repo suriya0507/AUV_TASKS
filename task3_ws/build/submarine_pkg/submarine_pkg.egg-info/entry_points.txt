@@ -1,0 +1,4 @@
+[console_scripts]
+commander = submarine_pkg.commander:main
+navigator = submarine_pkg.navigator:main
+

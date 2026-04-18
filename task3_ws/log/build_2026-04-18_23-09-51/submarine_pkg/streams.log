@@ -1,0 +1,25 @@
+[1.644s] Invoking command in '/home/suriya_prakash/task3_ws/build/submarine_pkg': PYTHONPATH=/home/suriya_prakash/task3_ws/build/submarine_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suriya_prakash/task3_ws/install/submarine_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/suriya_prakash/task3_ws/build/submarine_pkg/build --no-deps symlink_data
+[2.145s] running develop
+[2.410s] running egg_info
+[2.410s] creating submarine_pkg.egg-info
+[2.411s] writing submarine_pkg.egg-info/PKG-INFO
+[2.411s] writing dependency_links to submarine_pkg.egg-info/dependency_links.txt
+[2.412s] writing entry points to submarine_pkg.egg-info/entry_points.txt
+[2.412s] writing requirements to submarine_pkg.egg-info/requires.txt
+[2.412s] writing top-level names to submarine_pkg.egg-info/top_level.txt
+[2.413s] writing manifest file 'submarine_pkg.egg-info/SOURCES.txt'
+[2.415s] reading manifest file 'submarine_pkg.egg-info/SOURCES.txt'
+[2.417s] writing manifest file 'submarine_pkg.egg-info/SOURCES.txt'
+[2.419s] running build_ext
+[2.420s] Creating /home/suriya_prakash/task3_ws/install/submarine_pkg/lib/python3.10/site-packages/submarine-pkg.egg-link (link to .)
+[2.421s] Installing commander script to /home/suriya_prakash/task3_ws/install/submarine_pkg/lib/submarine_pkg
+[2.422s] Installing navigator script to /home/suriya_prakash/task3_ws/install/submarine_pkg/lib/submarine_pkg
+[2.422s] 
+[2.423s] Installed /home/suriya_prakash/task3_ws/build/submarine_pkg
+[2.423s] running symlink_data
+[2.423s] creating /home/suriya_prakash/task3_ws/install/submarine_pkg/share/ament_index
+[2.423s] creating /home/suriya_prakash/task3_ws/install/submarine_pkg/share/ament_index/resource_index
+[2.424s] creating /home/suriya_prakash/task3_ws/install/submarine_pkg/share/ament_index/resource_index/packages
+[2.424s] symbolically linking /home/suriya_prakash/task3_ws/build/submarine_pkg/resource/submarine_pkg -> /home/suriya_prakash/task3_ws/install/submarine_pkg/share/ament_index/resource_index/packages
+[2.425s] symbolically linking /home/suriya_prakash/task3_ws/build/submarine_pkg/package.xml -> /home/suriya_prakash/task3_ws/install/submarine_pkg/share/submarine_pkg
+[2.502s] Invoked command in '/home/suriya_prakash/task3_ws/build/submarine_pkg' returned '0': PYTHONPATH=/home/suriya_prakash/task3_ws/build/submarine_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suriya_prakash/task3_ws/install/submarine_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/suriya_prakash/task3_ws/build/submarine_pkg/build --no-deps symlink_data

@@ -1,0 +1,4 @@
+source;share/submarine_interfaces/local_setup.bash
+source;share/submarine_interfaces/local_setup.dsv
+source;share/submarine_interfaces/local_setup.sh
+source;share/submarine_interfaces/local_setup.zsh

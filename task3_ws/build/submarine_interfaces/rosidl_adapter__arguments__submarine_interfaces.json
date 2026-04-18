@@ -1,0 +1,6 @@
+{
+  "package_name": "submarine_interfaces",
+  "non_idl_tuples": [
+    "/home/suriya_prakash/task3_ws/src/submarine_interfaces:msg/SubmarineState.msg"
+  ]
+}

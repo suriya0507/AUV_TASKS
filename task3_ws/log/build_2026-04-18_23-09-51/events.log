@@ -1,0 +1,468 @@
+[0.000000] (-) TimerEvent: {}
+[0.001910] (submarine_interfaces) JobQueued: {'identifier': 'submarine_interfaces', 'dependencies': OrderedDict()}
+[0.002031] (submarine_pkg) JobQueued: {'identifier': 'submarine_pkg', 'dependencies': OrderedDict()}
+[0.002102] (submarine_interfaces) JobStarted: {'identifier': 'submarine_interfaces'}
+[0.023462] (submarine_pkg) JobStarted: {'identifier': 'submarine_pkg'}
+[0.040403] (submarine_interfaces) JobProgress: {'identifier': 'submarine_interfaces', 'progress': 'cmake'}
+[0.043350] (submarine_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/suriya_prakash/task3_ws/src/submarine_interfaces', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/suriya_prakash/task3_ws/install/submarine_interfaces'], 'cwd': '/home/suriya_prakash/task3_ws/build/submarine_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suriya_prakash'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/suriya_prakash'), ('OLDPWD', '/home/suriya_prakash/task3_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/suriya_prakash/task3_ws/install:/home/suriya_prakash/chat_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'suriya_prakash'), ('NAME', 'LAPTOP-23IQKRF2'), ('WSL_INTEROP', '/run/WSL/309_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/suriya_prakash/task3_ws/install/sub_logic/bin:/home/suriya_prakash/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/Suriya Prakash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Suriya Prakash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Suriya Prakash/AppData/Roaming/npm:/mnt/c/Users/Suriya Prakash/AppData/Local/Programs/Antigravity/bin:/mnt/c/Program Files/nodejs:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/suriya_prakash/task3_ws/install/submarine_pkg:/home/suriya_prakash/task3_ws/install/submarine_interfaces:/home/suriya_prakash/task3_ws/install/sub_logic:/home/suriya_prakash/task3_ws/install/chat_pkg:/home/suriya_prakash/chat_ws/install/task2:/home/suriya_prakash/chat_ws/install/chat_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/suriya_prakash/task3_ws/build/submarine_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/suriya_prakash/task3_ws/build/chat_pkg:/home/suriya_prakash/task3_ws/build/submarine_pkg:/home/suriya_prakash/task3_ws/install/submarine_pkg/lib/python3.10/site-packages:/home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages:/home/suriya_prakash/task3_ws/build/sub_logic:/home/suriya_prakash/task3_ws/install/sub_logic/lib/python3.10/site-packages:/home/suriya_prakash/task3_ws/install/chat_pkg/lib/python3.10/site-packages:/home/suriya_prakash/chat_ws/install/task2/lib/python3.10/site-packages:/home/suriya_prakash/chat_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/suriya_prakash/task3_ws/install/submarine_interfaces:/home/suriya_prakash/task3_ws/install/submarine_pkg:/home/suriya_prakash/task3_ws/install/sub_logic:/home/suriya_prakash/task3_ws/install/chat_pkg:/home/suriya_prakash/chat_ws/install/task2:/home/suriya_prakash/chat_ws/install/chat_pkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.099404] (-) TimerEvent: {}
+[0.200016] (-) TimerEvent: {}
+[0.300988] (-) TimerEvent: {}
+[0.401641] (-) TimerEvent: {}
+[0.502450] (-) TimerEvent: {}
+[0.603288] (-) TimerEvent: {}
+[0.704223] (-) TimerEvent: {}
+[0.714298] (submarine_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.804667] (-) TimerEvent: {}
+[0.905765] (-) TimerEvent: {}
+[1.006784] (-) TimerEvent: {}
+[1.108133] (-) TimerEvent: {}
+[1.209081] (-) TimerEvent: {}
+[1.310263] (-) TimerEvent: {}
+[1.411000] (-) TimerEvent: {}
+[1.512021] (-) TimerEvent: {}
+[1.612803] (-) TimerEvent: {}
+[1.661502] (submarine_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/suriya_prakash/task3_ws/build/submarine_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/suriya_prakash/task3_ws/build/submarine_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'suriya_prakash', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/suriya_prakash', 'OLDPWD': '/home/suriya_prakash/task3_ws/src', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/suriya_prakash/task3_ws/install:/home/suriya_prakash/chat_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'suriya_prakash', 'NAME': 'LAPTOP-23IQKRF2', 'WSL_INTEROP': '/run/WSL/309_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/suriya_prakash/task3_ws/install/sub_logic/bin:/home/suriya_prakash/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/Suriya Prakash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Suriya Prakash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Suriya Prakash/AppData/Roaming/npm:/mnt/c/Users/Suriya Prakash/AppData/Local/Programs/Antigravity/bin:/mnt/c/Program Files/nodejs:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/suriya_prakash/task3_ws/install/submarine_pkg:/home/suriya_prakash/task3_ws/install/submarine_interfaces:/home/suriya_prakash/task3_ws/install/sub_logic:/home/suriya_prakash/task3_ws/install/chat_pkg:/home/suriya_prakash/chat_ws/install/task2:/home/suriya_prakash/chat_ws/install/chat_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/suriya_prakash/task3_ws/build/submarine_pkg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/suriya_prakash/task3_ws/build/submarine_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/suriya_prakash/task3_ws/install/submarine_pkg/lib/python3.10/site-packages:/home/suriya_prakash/task3_ws/build/chat_pkg:/home/suriya_prakash/task3_ws/build/submarine_pkg:/home/suriya_prakash/task3_ws/install/submarine_pkg/lib/python3.10/site-packages:/home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages:/home/suriya_prakash/task3_ws/build/sub_logic:/home/suriya_prakash/task3_ws/install/sub_logic/lib/python3.10/site-packages:/home/suriya_prakash/task3_ws/install/chat_pkg/lib/python3.10/site-packages:/home/suriya_prakash/chat_ws/install/task2/lib/python3.10/site-packages:/home/suriya_prakash/chat_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/suriya_prakash/task3_ws/install/submarine_interfaces', 'WSLENV': ''}, 'shell': False}
+[1.713179] (-) TimerEvent: {}
+[1.814117] (-) TimerEvent: {}
+[1.914935] (-) TimerEvent: {}
+[2.016196] (-) TimerEvent: {}
+[2.116992] (-) TimerEvent: {}
+[2.168428] (submarine_pkg) StdoutLine: {'line': b'running develop\n'}
+[2.217334] (-) TimerEvent: {}
+[2.318347] (-) TimerEvent: {}
+[2.419008] (-) TimerEvent: {}
+[2.425616] (submarine_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[2.433457] (submarine_pkg) StdoutLine: {'line': b'creating submarine_pkg.egg-info\n'}
+[2.434261] (submarine_pkg) StdoutLine: {'line': b'writing submarine_pkg.egg-info/PKG-INFO\n'}
+[2.434750] (submarine_pkg) StdoutLine: {'line': b'writing dependency_links to submarine_pkg.egg-info/dependency_links.txt\n'}
+[2.435272] (submarine_pkg) StdoutLine: {'line': b'writing entry points to submarine_pkg.egg-info/entry_points.txt\n'}
+[2.435546] (submarine_pkg) StdoutLine: {'line': b'writing requirements to submarine_pkg.egg-info/requires.txt\n'}
+[2.435687] (submarine_pkg) StdoutLine: {'line': b'writing top-level names to submarine_pkg.egg-info/top_level.txt\n'}
+[2.436196] (submarine_pkg) StdoutLine: {'line': b"writing manifest file 'submarine_pkg.egg-info/SOURCES.txt'\n"}
+[2.438800] (submarine_pkg) StdoutLine: {'line': b"reading manifest file 'submarine_pkg.egg-info/SOURCES.txt'\n"}
+[2.439917] (submarine_pkg) StdoutLine: {'line': b"writing manifest file 'submarine_pkg.egg-info/SOURCES.txt'\n"}
+[2.442700] (submarine_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[2.443068] (submarine_pkg) StdoutLine: {'line': b'Creating /home/suriya_prakash/task3_ws/install/submarine_pkg/lib/python3.10/site-packages/submarine-pkg.egg-link (link to .)\n'}
+[2.444569] (submarine_pkg) StdoutLine: {'line': b'Installing commander script to /home/suriya_prakash/task3_ws/install/submarine_pkg/lib/submarine_pkg\n'}
+[2.445266] (submarine_pkg) StdoutLine: {'line': b'Installing navigator script to /home/suriya_prakash/task3_ws/install/submarine_pkg/lib/submarine_pkg\n'}
+[2.445831] (submarine_pkg) StdoutLine: {'line': b'\n'}
+[2.446076] (submarine_pkg) StdoutLine: {'line': b'Installed /home/suriya_prakash/task3_ws/build/submarine_pkg\n'}
+[2.446403] (submarine_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[2.446557] (submarine_pkg) StdoutLine: {'line': b'creating /home/suriya_prakash/task3_ws/install/submarine_pkg/share/ament_index\n'}
+[2.446842] (submarine_pkg) StdoutLine: {'line': b'creating /home/suriya_prakash/task3_ws/install/submarine_pkg/share/ament_index/resource_index\n'}
+[2.447268] (submarine_pkg) StdoutLine: {'line': b'creating /home/suriya_prakash/task3_ws/install/submarine_pkg/share/ament_index/resource_index/packages\n'}
+[2.447842] (submarine_pkg) StdoutLine: {'line': b'symbolically linking /home/suriya_prakash/task3_ws/build/submarine_pkg/resource/submarine_pkg -> /home/suriya_prakash/task3_ws/install/submarine_pkg/share/ament_index/resource_index/packages\n'}
+[2.448364] (submarine_pkg) StdoutLine: {'line': b'symbolically linking /home/suriya_prakash/task3_ws/build/submarine_pkg/package.xml -> /home/suriya_prakash/task3_ws/install/submarine_pkg/share/submarine_pkg\n'}
+[2.519804] (-) TimerEvent: {}
+[2.524497] (submarine_pkg) CommandEnded: {'returncode': 0}
+[2.565637] (submarine_pkg) JobEnded: {'identifier': 'submarine_pkg', 'rc': 0}
+[2.620003] (-) TimerEvent: {}
+[2.720540] (-) TimerEvent: {}
+[2.821098] (-) TimerEvent: {}
+[2.921864] (-) TimerEvent: {}
+[3.022313] (-) TimerEvent: {}
+[3.122864] (-) TimerEvent: {}
+[3.182704] (submarine_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.223067] (-) TimerEvent: {}
+[3.323759] (-) TimerEvent: {}
+[3.424534] (-) TimerEvent: {}
+[3.525451] (-) TimerEvent: {}
+[3.626232] (-) TimerEvent: {}
+[3.727107] (-) TimerEvent: {}
+[3.827859] (-) TimerEvent: {}
+[3.929072] (-) TimerEvent: {}
+[4.030042] (-) TimerEvent: {}
+[4.131051] (-) TimerEvent: {}
+[4.232118] (-) TimerEvent: {}
+[4.333082] (-) TimerEvent: {}
+[4.434012] (-) TimerEvent: {}
+[4.534912] (-) TimerEvent: {}
+[4.635537] (-) TimerEvent: {}
+[4.736188] (-) TimerEvent: {}
+[4.837309] (-) TimerEvent: {}
+[4.938195] (-) TimerEvent: {}
+[5.038905] (-) TimerEvent: {}
+[5.139612] (-) TimerEvent: {}
+[5.240365] (-) TimerEvent: {}
+[5.341765] (-) TimerEvent: {}
+[5.443773] (-) TimerEvent: {}
+[5.545193] (-) TimerEvent: {}
+[5.647642] (-) TimerEvent: {}
+[5.747252] (submarine_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.747548] (-) TimerEvent: {}
+[5.848060] (-) TimerEvent: {}
+[5.948686] (-) TimerEvent: {}
+[6.049889] (-) TimerEvent: {}
+[6.151160] (-) TimerEvent: {}
+[6.252461] (-) TimerEvent: {}
+[6.353955] (-) TimerEvent: {}
+[6.399829] (submarine_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.419750] (submarine_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[6.421257] (submarine_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.422854] (submarine_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.434855] (submarine_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.454187] (-) TimerEvent: {}
+[6.554743] (-) TimerEvent: {}
+[6.656141] (-) TimerEvent: {}
+[6.757768] (-) TimerEvent: {}
+[6.859411] (-) TimerEvent: {}
+[6.961364] (-) TimerEvent: {}
+[7.062496] (-) TimerEvent: {}
+[7.164010] (-) TimerEvent: {}
+[7.265623] (-) TimerEvent: {}
+[7.367106] (-) TimerEvent: {}
+[7.439481] (submarine_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.450353] (submarine_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[7.451067] (submarine_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.451553] (submarine_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.467610] (-) TimerEvent: {}
+[7.477312] (submarine_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[7.568421] (-) TimerEvent: {}
+[7.669496] (-) TimerEvent: {}
+[7.766856] (submarine_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[7.769858] (-) TimerEvent: {}
+[7.871121] (-) TimerEvent: {}
+[7.972299] (-) TimerEvent: {}
+[7.988889] (submarine_interfaces) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[8.073438] (-) TimerEvent: {}
+[8.124102] (submarine_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[8.174057] (-) TimerEvent: {}
+[8.275303] (-) TimerEvent: {}
+[8.343668] (submarine_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[8.372324] (submarine_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.375534] (-) TimerEvent: {}
+[8.402122] (submarine_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[8.476246] (-) TimerEvent: {}
+[8.578723] (-) TimerEvent: {}
+[8.683034] (-) TimerEvent: {}
+[8.787052] (-) TimerEvent: {}
+[8.890807] (-) TimerEvent: {}
+[8.994389] (-) TimerEvent: {}
+[9.098418] (-) TimerEvent: {}
+[9.202412] (-) TimerEvent: {}
+[9.306343] (-) TimerEvent: {}
+[9.411271] (-) TimerEvent: {}
+[9.516050] (-) TimerEvent: {}
+[9.619938] (-) TimerEvent: {}
+[9.640245] (submarine_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.722403] (-) TimerEvent: {}
+[9.825713] (-) TimerEvent: {}
+[9.926904] (-) TimerEvent: {}
+[10.029571] (-) TimerEvent: {}
+[10.131907] (-) TimerEvent: {}
+[10.188290] (submarine_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[10.232836] (-) TimerEvent: {}
+[10.335120] (-) TimerEvent: {}
+[10.437272] (-) TimerEvent: {}
+[10.539891] (-) TimerEvent: {}
+[10.642091] (-) TimerEvent: {}
+[10.669745] (submarine_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.743303] (-) TimerEvent: {}
+[10.845344] (-) TimerEvent: {}
+[10.947635] (-) TimerEvent: {}
+[11.048607] (-) TimerEvent: {}
+[11.150568] (-) TimerEvent: {}
+[11.188848] (submarine_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.251732] (-) TimerEvent: {}
+[11.354153] (-) TimerEvent: {}
+[11.456182] (-) TimerEvent: {}
+[11.558433] (-) TimerEvent: {}
+[11.660464] (-) TimerEvent: {}
+[11.762372] (-) TimerEvent: {}
+[11.864345] (-) TimerEvent: {}
+[11.966087] (-) TimerEvent: {}
+[12.068052] (-) TimerEvent: {}
+[12.079703] (submarine_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[12.084484] (submarine_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[12.169241] (-) TimerEvent: {}
+[12.271247] (-) TimerEvent: {}
+[12.373355] (-) TimerEvent: {}
+[12.475431] (-) TimerEvent: {}
+[12.577335] (-) TimerEvent: {}
+[12.679255] (-) TimerEvent: {}
+[12.781271] (-) TimerEvent: {}
+[12.883024] (-) TimerEvent: {}
+[12.985156] (-) TimerEvent: {}
+[13.087191] (-) TimerEvent: {}
+[13.188917] (-) TimerEvent: {}
+[13.291072] (-) TimerEvent: {}
+[13.393116] (-) TimerEvent: {}
+[13.495270] (-) TimerEvent: {}
+[13.597210] (-) TimerEvent: {}
+[13.699120] (-) TimerEvent: {}
+[13.801214] (-) TimerEvent: {}
+[13.903236] (-) TimerEvent: {}
+[14.005093] (-) TimerEvent: {}
+[14.107033] (-) TimerEvent: {}
+[14.208872] (-) TimerEvent: {}
+[14.310683] (-) TimerEvent: {}
+[14.412149] (-) TimerEvent: {}
+[14.513560] (-) TimerEvent: {}
+[14.614839] (-) TimerEvent: {}
+[14.716298] (-) TimerEvent: {}
+[14.817729] (-) TimerEvent: {}
+[14.919175] (-) TimerEvent: {}
+[15.020672] (-) TimerEvent: {}
+[15.122072] (-) TimerEvent: {}
+[15.223374] (-) TimerEvent: {}
+[15.246730] (submarine_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[15.247008] (submarine_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[15.247109] (submarine_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[15.247192] (submarine_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[15.281065] (submarine_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[15.323858] (-) TimerEvent: {}
+[15.425102] (-) TimerEvent: {}
+[15.526447] (-) TimerEvent: {}
+[15.627611] (-) TimerEvent: {}
+[15.665407] (submarine_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.669356] (submarine_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.693057] (submarine_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.728091] (-) TimerEvent: {}
+[15.757962] (submarine_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[15.772880] (submarine_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/suriya_prakash/task3_ws/build/submarine_interfaces\n'}
+[15.781376] (submarine_interfaces) CommandEnded: {'returncode': 0}
+[15.782526] (submarine_interfaces) JobProgress: {'identifier': 'submarine_interfaces', 'progress': 'build'}
+[15.785142] (submarine_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/suriya_prakash/task3_ws/build/submarine_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/suriya_prakash/task3_ws/build/submarine_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suriya_prakash'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/suriya_prakash'), ('OLDPWD', '/home/suriya_prakash/task3_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/suriya_prakash/task3_ws/install:/home/suriya_prakash/chat_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'suriya_prakash'), ('NAME', 'LAPTOP-23IQKRF2'), ('WSL_INTEROP', '/run/WSL/309_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/suriya_prakash/task3_ws/install/sub_logic/bin:/home/suriya_prakash/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/Suriya Prakash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Suriya Prakash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Suriya Prakash/AppData/Roaming/npm:/mnt/c/Users/Suriya Prakash/AppData/Local/Programs/Antigravity/bin:/mnt/c/Program Files/nodejs:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/suriya_prakash/task3_ws/install/submarine_pkg:/home/suriya_prakash/task3_ws/install/submarine_interfaces:/home/suriya_prakash/task3_ws/install/sub_logic:/home/suriya_prakash/task3_ws/install/chat_pkg:/home/suriya_prakash/chat_ws/install/task2:/home/suriya_prakash/chat_ws/install/chat_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/suriya_prakash/task3_ws/build/submarine_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/suriya_prakash/task3_ws/build/chat_pkg:/home/suriya_prakash/task3_ws/build/submarine_pkg:/home/suriya_prakash/task3_ws/install/submarine_pkg/lib/python3.10/site-packages:/home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages:/home/suriya_prakash/task3_ws/build/sub_logic:/home/suriya_prakash/task3_ws/install/sub_logic/lib/python3.10/site-packages:/home/suriya_prakash/task3_ws/install/chat_pkg/lib/python3.10/site-packages:/home/suriya_prakash/chat_ws/install/task2/lib/python3.10/site-packages:/home/suriya_prakash/chat_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/suriya_prakash/task3_ws/install/submarine_interfaces:/home/suriya_prakash/task3_ws/install/submarine_pkg:/home/suriya_prakash/task3_ws/install/sub_logic:/home/suriya_prakash/task3_ws/install/chat_pkg:/home/suriya_prakash/chat_ws/install/task2:/home/suriya_prakash/chat_ws/install/chat_pkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[15.828422] (-) TimerEvent: {}
+[15.850310] (submarine_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[15.867299] (submarine_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[15.870589] (submarine_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[15.880755] (submarine_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_symlink_submarine_interfaces\n'}
+[15.928745] (-) TimerEvent: {}
+[16.029932] (-) TimerEvent: {}
+[16.131130] (-) TimerEvent: {}
+[16.232178] (-) TimerEvent: {}
+[16.261544] (submarine_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[16.262724] (submarine_interfaces) StdoutLine: {'line': b'creating submarine_interfaces.egg-info\n'}
+[16.263737] (submarine_interfaces) StdoutLine: {'line': b'writing submarine_interfaces.egg-info/PKG-INFO\n'}
+[16.264229] (submarine_interfaces) StdoutLine: {'line': b'writing dependency_links to submarine_interfaces.egg-info/dependency_links.txt\n'}
+[16.264693] (submarine_interfaces) StdoutLine: {'line': b'writing top-level names to submarine_interfaces.egg-info/top_level.txt\n'}
+[16.265131] (submarine_interfaces) StdoutLine: {'line': b"writing manifest file 'submarine_interfaces.egg-info/SOURCES.txt'\n"}
+[16.269118] (submarine_interfaces) StdoutLine: {'line': b"reading manifest file 'submarine_interfaces.egg-info/SOURCES.txt'\n"}
+[16.270269] (submarine_interfaces) StdoutLine: {'line': b"writing manifest file 'submarine_interfaces.egg-info/SOURCES.txt'\n"}
+[16.329312] (submarine_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_build_submarine_interfaces_egg\n'}
+[16.332401] (-) TimerEvent: {}
+[16.342395] (submarine_interfaces) StdoutLine: {'line': b'[  9%] Built target submarine_interfaces__rs\n'}
+[16.352572] (submarine_interfaces) StdoutLine: {'line': b'[  9%] Built target submarine_interfaces__cpp\n'}
+[16.367991] (submarine_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[16.368715] (submarine_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.369626] (submarine_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/submarine_interfaces__rosidl_generator_c.dir/rosidl_generator_c/submarine_interfaces/msg/detail/submarine_state__functions.c.o\x1b[0m\n'}
+[16.371276] (submarine_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.432691] (-) TimerEvent: {}
+[16.522874] (submarine_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking C shared library libsubmarine_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[16.532999] (-) TimerEvent: {}
+[16.633899] (-) TimerEvent: {}
+[16.734789] (-) TimerEvent: {}
+[16.766218] (submarine_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/submarine_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/submarine_interfaces/msg/submarine_state__type_support.cpp.o\x1b[0m\n'}
+[16.802063] (submarine_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/submarine_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/submarine_interfaces/msg/detail/submarine_state__type_support.cpp.o\x1b[0m\n'}
+[16.805431] (submarine_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/submarine_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/submarine_interfaces/msg/detail/dds_fastrtps/submarine_state__type_support.cpp.o\x1b[0m\n'}
+[16.835186] (-) TimerEvent: {}
+[16.921290] (submarine_interfaces) StdoutLine: {'line': b'[ 34%] Built target submarine_interfaces__rosidl_generator_c\n'}
+[16.935466] (-) TimerEvent: {}
+[16.939566] (submarine_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[16.940260] (submarine_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.941082] (submarine_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.035732] (-) TimerEvent: {}
+[17.137014] (-) TimerEvent: {}
+[17.238008] (-) TimerEvent: {}
+[17.339098] (-) TimerEvent: {}
+[17.407909] (submarine_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/submarine_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/submarine_interfaces/msg/submarine_state__type_support.cpp.o\x1b[0m\n'}
+[17.420617] (submarine_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libsubmarine_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[17.439291] (-) TimerEvent: {}
+[17.447455] (submarine_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/submarine_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/submarine_interfaces/msg/detail/submarine_state__type_support_c.cpp.o\x1b[0m\n'}
+[17.456259] (submarine_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/submarine_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/submarine_interfaces/msg/detail/submarine_state__type_support.c.o\x1b[0m\n'}
+[17.466223] (submarine_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32m\x1b[1mLinking CXX shared library libsubmarine_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.520078] (submarine_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libsubmarine_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[17.539549] (-) TimerEvent: {}
+[17.623825] (submarine_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libsubmarine_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[17.639758] (-) TimerEvent: {}
+[17.642459] (submarine_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libsubmarine_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[17.740404] (-) TimerEvent: {}
+[17.840961] (-) TimerEvent: {}
+[17.842898] (submarine_interfaces) StdoutLine: {'line': b'[ 68%] Built target submarine_interfaces__rosidl_typesupport_cpp\n'}
+[17.845903] (submarine_interfaces) StdoutLine: {'line': b'[ 68%] Built target submarine_interfaces__rosidl_typesupport_c\n'}
+[17.894252] (submarine_interfaces) StdoutLine: {'line': b'[ 68%] Built target submarine_interfaces__rosidl_typesupport_introspection_c\n'}
+[17.941143] (-) TimerEvent: {}
+[18.021125] (submarine_interfaces) StdoutLine: {'line': b'[ 68%] Built target submarine_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[18.041327] (-) TimerEvent: {}
+[18.047916] (submarine_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libsubmarine_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[18.070733] (submarine_interfaces) StdoutLine: {'line': b'[ 71%] Built target submarine_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[18.141492] (-) TimerEvent: {}
+[18.242000] (-) TimerEvent: {}
+[18.342591] (-) TimerEvent: {}
+[18.443685] (-) TimerEvent: {}
+[18.544589] (-) TimerEvent: {}
+[18.578700] (submarine_interfaces) StdoutLine: {'line': b'[ 71%] Built target submarine_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[18.624706] (submarine_interfaces) StdoutLine: {'line': b'[ 71%] Built target submarine_interfaces\n'}
+[18.645218] (-) TimerEvent: {}
+[18.670232] (submarine_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[18.745518] (-) TimerEvent: {}
+[18.846612] (-) TimerEvent: {}
+[18.947158] (-) TimerEvent: {}
+[19.047914] (-) TimerEvent: {}
+[19.125392] (submarine_interfaces) StdoutLine: {'line': b'[ 75%] Built target submarine_interfaces__py\n'}
+[19.148069] (-) TimerEvent: {}
+[19.155263] (submarine_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/submarine_interfaces__rosidl_generator_py.dir/rosidl_generator_py/submarine_interfaces/msg/_submarine_state_s.c.o\x1b[0m\n'}
+[19.248425] (-) TimerEvent: {}
+[19.349105] (-) TimerEvent: {}
+[19.399967] (submarine_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/submarine_interfaces/libsubmarine_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[19.449499] (-) TimerEvent: {}
+[19.550233] (-) TimerEvent: {}
+[19.650949] (-) TimerEvent: {}
+[19.751818] (-) TimerEvent: {}
+[19.852615] (-) TimerEvent: {}
+[19.953252] (-) TimerEvent: {}
+[20.054113] (-) TimerEvent: {}
+[20.154823] (-) TimerEvent: {}
+[20.232339] (submarine_interfaces) StdoutLine: {'line': b'[ 81%] Built target submarine_interfaces__rosidl_generator_py\n'}
+[20.255329] (-) TimerEvent: {}
+[20.269488] (submarine_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/submarine_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/submarine_interfaces/_submarine_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[20.270878] (submarine_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/submarine_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/submarine_interfaces/_submarine_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[20.272401] (submarine_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/submarine_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/submarine_interfaces/_submarine_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[20.355618] (-) TimerEvent: {}
+[20.407880] (submarine_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/submarine_interfaces/submarine_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.412457] (submarine_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/submarine_interfaces/submarine_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.412761] (submarine_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/submarine_interfaces/submarine_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[20.455830] (-) TimerEvent: {}
+[20.556628] (-) TimerEvent: {}
+[20.657180] (-) TimerEvent: {}
+[20.758125] (-) TimerEvent: {}
+[20.859233] (-) TimerEvent: {}
+[20.959960] (-) TimerEvent: {}
+[20.993123] (submarine_interfaces) StdoutLine: {'line': b'[100%] Built target submarine_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[21.002993] (submarine_interfaces) StdoutLine: {'line': b'[100%] Built target submarine_interfaces__rosidl_typesupport_c__pyext\n'}
+[21.003821] (submarine_interfaces) StdoutLine: {'line': b'[100%] Built target submarine_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[21.034275] (submarine_interfaces) CommandEnded: {'returncode': 0}
+[21.038020] (submarine_interfaces) JobProgress: {'identifier': 'submarine_interfaces', 'progress': 'install'}
+[21.061500] (submarine_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/suriya_prakash/task3_ws/build/submarine_interfaces'], 'cwd': '/home/suriya_prakash/task3_ws/build/submarine_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'suriya_prakash'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/suriya_prakash'), ('OLDPWD', '/home/suriya_prakash/task3_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/suriya_prakash/task3_ws/install:/home/suriya_prakash/chat_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'suriya_prakash'), ('NAME', 'LAPTOP-23IQKRF2'), ('WSL_INTEROP', '/run/WSL/309_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/suriya_prakash/task3_ws/install/sub_logic/bin:/home/suriya_prakash/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.6.3.0_x64__8wekyb3d8bbwe:/mnt/c/windows/system32:/mnt/c/windows:/mnt/c/windows/System32/Wbem:/mnt/c/windows/System32/WindowsPowerShell/v1.0/:/mnt/c/windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA App/NvDLISR:/mnt/c/Users/Administrator/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/HP/OMEN-Broadcast/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Cloudflare/Cloudflare WARP/:/mnt/c/Users/Suriya Prakash/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Suriya Prakash/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/msys64/ucrt64/bin:/mnt/c/Users/Suriya Prakash/AppData/Roaming/npm:/mnt/c/Users/Suriya Prakash/AppData/Local/Programs/Antigravity/bin:/mnt/c/Program Files/nodejs:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/suriya_prakash/task3_ws/install/submarine_pkg:/home/suriya_prakash/task3_ws/install/submarine_interfaces:/home/suriya_prakash/task3_ws/install/sub_logic:/home/suriya_prakash/task3_ws/install/chat_pkg:/home/suriya_prakash/chat_ws/install/task2:/home/suriya_prakash/chat_ws/install/chat_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/suriya_prakash/task3_ws/build/submarine_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/suriya_prakash/task3_ws/build/chat_pkg:/home/suriya_prakash/task3_ws/build/submarine_pkg:/home/suriya_prakash/task3_ws/install/submarine_pkg/lib/python3.10/site-packages:/home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages:/home/suriya_prakash/task3_ws/build/sub_logic:/home/suriya_prakash/task3_ws/install/sub_logic/lib/python3.10/site-packages:/home/suriya_prakash/task3_ws/install/chat_pkg/lib/python3.10/site-packages:/home/suriya_prakash/chat_ws/install/task2/lib/python3.10/site-packages:/home/suriya_prakash/chat_ws/install/chat_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/suriya_prakash/task3_ws/install/submarine_interfaces:/home/suriya_prakash/task3_ws/install/submarine_pkg:/home/suriya_prakash/task3_ws/install/sub_logic:/home/suriya_prakash/task3_ws/install/chat_pkg:/home/suriya_prakash/chat_ws/install/task2:/home/suriya_prakash/chat_ws/install/chat_pkg:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[21.063734] (-) TimerEvent: {}
+[21.081448] (submarine_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.082668] (submarine_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.085423] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/ament_index/resource_index/rosidl_interfaces/submarine_interfaces\n'}
+[21.112439] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__functions.h\n'}
+[21.131935] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__struct.h\n'}
+[21.153698] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__type_support.h\n'}
+[21.164119] (-) TimerEvent: {}
+[21.170259] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.192401] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/submarine_state.h\n'}
+[21.216122] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/environment/library_path.sh\n'}
+[21.235843] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/environment/library_path.dsv\n'}
+[21.258699] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__rosidl_typesupport_fastrtps_c.h\n'}
+[21.264592] (-) TimerEvent: {}
+[21.281656] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.305809] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__rosidl_typesupport_introspection_c.h\n'}
+[21.326965] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.349190] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__builder.hpp\n'}
+[21.365130] (-) TimerEvent: {}
+[21.371053] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__struct.hpp\n'}
+[21.391661] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__traits.hpp\n'}
+[21.413727] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__type_support.hpp\n'}
+[21.434082] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[21.450383] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/submarine_state.hpp\n'}
+[21.465412] (-) TimerEvent: {}
+[21.465828] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.485504] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.507012] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/include/submarine_interfaces/submarine_interfaces/msg/detail/submarine_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.525710] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/environment/pythonpath.sh\n'}
+[21.546012] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/environment/pythonpath.dsv\n'}
+[21.565590] (-) TimerEvent: {}
+[21.570148] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[21.587189] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[21.603759] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[21.618604] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[21.634272] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/__init__.py\n'}
+[21.647174] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/_submarine_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[21.660331] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/_submarine_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[21.665768] (-) TimerEvent: {}
+[21.674300] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/_submarine_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[21.687728] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/libsubmarine_interfaces__rosidl_generator_py.so\n'}
+[21.702400] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/msg/__init__.py\n'}
+[21.717565] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/msg/_submarine_state.py\n'}
+[21.732558] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/msg/_submarine_state_s.c\n'}
+[21.747256] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/submarine_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.762915] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/submarine_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.765910] (-) TimerEvent: {}
+[21.779575] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/submarine_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.798460] (submarine_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/submarine_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.799666] (submarine_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/submarine_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.799965] (submarine_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/submarine_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.800438] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/ament_index/resource_index/rust_packages/submarine_interfaces\n'}
+[21.818358] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/rust/Cargo.toml\n'}
+[21.836583] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/rust/build.rs\n'}
+[21.854914] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/rust/src/lib.rs\n'}
+[21.866251] (-) TimerEvent: {}
+[21.872989] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/rust/src/msg.rs\n'}
+[21.891796] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/rust/src/msg/rmw.rs\n'}
+[21.909225] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/msg/SubmarineState.idl\n'}
+[21.923770] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/msg/SubmarineState.msg\n'}
+[21.937729] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/ament_index/resource_index/package_run_dependencies/submarine_interfaces\n'}
+[21.953057] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/ament_index/resource_index/parent_prefix_path/submarine_interfaces\n'}
+[21.966580] (-) TimerEvent: {}
+[21.971572] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/environment/ament_prefix_path.sh\n'}
+[21.990146] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/environment/ament_prefix_path.dsv\n'}
+[22.003912] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/environment/path.sh\n'}
+[22.016256] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/environment/path.dsv\n'}
+[22.029092] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/local_setup.bash\n'}
+[22.041410] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/local_setup.sh\n'}
+[22.055370] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/local_setup.zsh\n'}
+[22.066953] (-) TimerEvent: {}
+[22.072339] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/local_setup.dsv\n'}
+[22.091102] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/package.dsv\n'}
+[22.111550] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/ament_index/resource_index/packages/submarine_interfaces\n'}
+[22.128834] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[22.149132] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.167385] (-) TimerEvent: {}
+[22.171986] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.197456] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.223000] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.244300] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.265093] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.267828] (-) TimerEvent: {}
+[22.288797] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/submarine_interfacesConfig.cmake\n'}
+[22.311909] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/submarine_interfacesConfig-version.cmake\n'}
+[22.335953] (submarine_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/package.xml\n'}
+[22.368094] (-) TimerEvent: {}
+[22.401072] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_generator_c.so\n'}
+[22.402007] (submarine_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_generator_c.so" to ""\n'}
+[22.402291] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[22.403083] (submarine_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.403345] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[22.403945] (submarine_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.404200] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_c.so\n'}
+[22.405085] (submarine_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[22.406161] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.406495] (submarine_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[22.406751] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[22.407494] (submarine_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[22.407946] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_cpp.so\n'}
+[22.408993] (submarine_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[22.468256] (-) TimerEvent: {}
+[22.512774] (submarine_interfaces) StdoutLine: {'line': b"Listing '/home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces'...\n"}
+[22.513469] (submarine_interfaces) StdoutLine: {'line': b"Compiling '/home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/__init__.py'...\n"}
+[22.513601] (submarine_interfaces) StdoutLine: {'line': b"Listing '/home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/msg'...\n"}
+[22.513701] (submarine_interfaces) StdoutLine: {'line': b"Compiling '/home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/msg/__init__.py'...\n"}
+[22.513803] (submarine_interfaces) StdoutLine: {'line': b"Compiling '/home/suriya_prakash/task3_ws/install/submarine_interfaces/local/lib/python3.10/dist-packages/submarine_interfaces/msg/_submarine_state.py'...\n"}
+[22.527003] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_generator_py.so\n'}
+[22.527911] (submarine_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/suriya_prakash/task3_ws/install/submarine_interfaces/lib/libsubmarine_interfaces__rosidl_generator_py.so" to ""\n'}
+[22.528202] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/export_submarine_interfaces__rosidl_generator_cExport.cmake\n'}
+[22.528883] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/export_submarine_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.529701] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/export_submarine_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.530001] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/export_submarine_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[22.530325] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/submarine_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.531184] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/submarine_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.531731] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/submarine_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[22.532227] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/submarine_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.532626] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/export_submarine_interfaces__rosidl_generator_cppExport.cmake\n'}
+[22.533899] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/export_submarine_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.534266] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/export_submarine_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[22.534568] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/submarine_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.535305] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/submarine_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.535567] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/submarine_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[22.535686] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/submarine_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.535828] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/export_submarine_interfaces__rosidl_generator_pyExport.cmake\n'}
+[22.535930] (submarine_interfaces) StdoutLine: {'line': b'-- Installing: /home/suriya_prakash/task3_ws/install/submarine_interfaces/share/submarine_interfaces/cmake/export_submarine_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[22.543878] (submarine_interfaces) CommandEnded: {'returncode': 0}
+[22.570754] (-) TimerEvent: {}
+[22.602903] (submarine_interfaces) JobEnded: {'identifier': 'submarine_interfaces', 'rc': 0}
+[22.607984] (-) EventReactorShutdown: {}
