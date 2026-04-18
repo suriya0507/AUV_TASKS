@@ -11,8 +11,8 @@ class SubmarineCommander(Node):
 
     def run_loop(self):
         while rclpy.ok():
-            cmd = input("Enter command (forward, backward, left, right): ").strip().lower()
-            if cmd in ['forward', 'backward', 'left', 'right']:
+            cmd = input("Enter command (forward, backward, turn left, turn right): ").strip().lower()
+            if cmd in ['forward', 'backward', 'turn left', 'turn right']:
                 msg = String()
                 msg.data = cmd
                 self.publisher_.publish(msg)

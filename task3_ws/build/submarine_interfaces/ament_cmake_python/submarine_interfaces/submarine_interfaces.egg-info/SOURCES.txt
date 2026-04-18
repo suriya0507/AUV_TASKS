@@ -4,3 +4,5 @@ submarine_interfaces.egg-info/PKG-INFO
 submarine_interfaces.egg-info/SOURCES.txt
 submarine_interfaces.egg-info/dependency_links.txt
 submarine_interfaces.egg-info/top_level.txt
+submarine_interfaces/msg/__init__.py
+submarine_interfaces/msg/_submarine_state.py
